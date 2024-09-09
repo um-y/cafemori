@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.028" height="50.201" viewBox="0 0 33.028 50.201">
+  <g id="그룹_345" data-name="그룹 345" transform="translate(-282.771 -455.7)">
+    <g id="그룹_344" data-name="그룹 344" transform="translate(282.771 455.7)">
+      <path id="패스_1982" data-name="패스 1982" d="M285.066,468.1l4.7,40.648h20.816l4.7-40.648Z" transform="translate(-283.665 -460.529)" fill="#3f2c26"/>
+      <rect id="사각형_364" data-name="사각형 364" width="19.155" height="1.979" transform="translate(6.936 48.222)" fill="#3f2c26"/>
+      <rect id="사각형_365" data-name="사각형 365" width="19.155" height="0.989" transform="translate(6.936 48.222)" fill="#3f2c26" opacity="0.4" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <path id="패스_1983" data-name="패스 1983" d="M312.813,504.118l2-17.25H287.237l2,17.25Z" transform="translate(-284.51 -467.834)" fill="#e1ceb2"/>
+      <path id="패스_1984" data-name="패스 1984" d="M314.963,472.3l.282-2.435H285.271l.282,2.435Z" transform="translate(-283.744 -461.215)" fill="#3f2c26" opacity="0.4" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="그룹_339" data-name="그룹 339">
+        <path id="패스_1985" data-name="패스 1985" d="M323.6,459.437H309.811v-.9s11.131-4.462,13.787-2.2C324.187,456.844,323.6,459.437,323.6,459.437Z" transform="translate(-293.298 -455.7)" fill="#e1ceb2"/>
+        <rect id="사각형_366" data-name="사각형 366" width="27.573" height="4.843" transform="translate(2.727 2.731)" fill="#e1ceb2"/>
+        <rect id="사각형_367" data-name="사각형 367" width="27.573" height="1.852" transform="translate(2.727 5.722)" fill="#a77e6b" opacity="0.4" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="패스_1986" data-name="패스 1986" d="M315.8,469.713H282.771l1.764-3.987h29.5Z" transform="translate(-282.771 -459.603)" fill="#e1ceb2"/>
+      </g>
+      <g id="그룹_343" data-name="그룹 343" transform="translate(9.038 23.266)">
+        <g id="그룹_340" data-name="그룹 340" transform="translate(0 0.49)">
+          <path id="패스_1987" data-name="패스 1987" d="M300.953,497.98c1.6-1.6,3.137-2.669,3.426-2.382a4.129,4.129,0,0,0-5.807,5.806C298.283,501.117,299.349,499.583,300.953,497.98Z" transform="translate(-297.571 -494.598)" fill="#a77e6b"/>
+          <path id="패스_1988" data-name="패스 1988" d="M305.017,496.236c.288.289-.779,1.822-2.382,3.426s-3.137,2.669-3.424,2.38a4.129,4.129,0,0,0,5.807-5.806Z" transform="translate(-298.209 -495.236)" fill="#a77e6b"/>
+        </g>
+        <g id="그룹_341" data-name="그룹 341" transform="translate(9.762)">
+          <path id="패스_1989" data-name="패스 1989" d="M316.15,495.661c1.432,0,2.594.208,2.595.465a2.609,2.609,0,0,0-5.189,0C313.555,495.872,314.716,495.662,316.15,495.661Z" transform="translate(-313.556 -493.796)" fill="#a77e6b"/>
+          <path id="패스_1990" data-name="패스 1990" d="M318.745,497.612c0,.258-1.162.467-2.595.468s-2.594-.208-2.594-.465a2.609,2.609,0,0,0,5.189,0Z" transform="translate(-313.556 -495.282)" fill="#a77e6b"/>
+        </g>
+        <g id="그룹_342" data-name="그룹 342" transform="translate(7.807 5.439)">
+          <path id="패스_1991" data-name="패스 1991" d="M314.273,505.279c.867,1.372,1.369,2.611,1.121,2.768a2.956,2.956,0,0,0-3.137-4.971C312.5,502.919,313.406,503.906,314.273,505.279Z" transform="translate(-311.095 -502.702)" fill="#a77e6b"/>
+          <path id="패스_1992" data-name="패스 1992" d="M314.654,508.284c-.247.156-1.149-.831-2.016-2.2s-1.368-2.613-1.121-2.768a2.956,2.956,0,0,0,3.137,4.971Z" transform="translate(-310.355 -502.94)" fill="#a77e6b"/>
+        </g>
+      </g>
+    </g>
+    <path id="패스_1993" data-name="패스 1993" d="M323.6,461.823v-2.386s.589-2.593,0-3.1c-2.408-2.054-11.784,1.424-13.512,2.09h-.275V505.9h9.578v-1.979h.83l1.382-11.938,2-17.25,1.032-8.925h1.7l-1.764-3.987Z" transform="translate(-10.526 0)" fill="#3f2c26" opacity="0.3" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>
