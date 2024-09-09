@@ -1,0 +1,229 @@
+/* webfont */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, small, strong, b, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tr, th, td, article, aside, footer, header, nav, section, summary, video{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    font-size: 16px;
+    /* rem의 기준크기!!! */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333333;
+}
+/* header */
+#wrap{
+    min-width: 1400px;
+}
+#mori_wrap{
+    width: 1320px;
+    height: 86px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+#wrap .logo{
+    margin: 10px 0;
+}
+.gnb{
+    display: flex;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.gnb> li{
+    position: relative;
+}
+.gnb> li> a{
+    display: block;
+    margin: 0 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.gnb> li> a:hover {
+    color: #58371D;
+}
+.submenu{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    background-color: rgb(255,255,255,0.8);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.submenu li a:hover{
+    color: #581d50;   
+}
+.gnb_img{
+    display: flex;
+    margin-top: 25px;
+}
+.gnb_img li a{
+    display: block;
+    margin-right: 50px;
+}
+/* banner */
+#banner{
+    background: url(../images/franchise/banner_fran.png) no-repeat center center;
+    height: 480px;
+}    
+/* section1 */
+#section1{
+    width: 1320px;
+    margin: 100px auto;
+    text-align: center;
+}
+.tit_img{
+    padding: 50px 0px 10px;
+}
+.sec_text{
+    font-size: 50px;
+    font-weight: bold;
+    color: #58371D;
+    padding: 30px;
+    
+}
+#section1 p{
+    font-size: 24px;
+    padding-bottom: 124px;
+    line-height: 40px;
+}
+/* section2 */
+#section2{
+    height: 1520px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../images/) no-repeat center top;
+}   
+.sec2_startup{
+    padding-top: 100px;
+}
+#section2 p{
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+/* banner2 */
+#banner2{
+    height: 460px;
+    background: url(../images/franchise/banner_fran_bottom.png) no-repeat center center;
+}
+/* section3 */
+#section3{
+    height: 2000px;
+    background: url(../images/franchise/bg_startup.png) no-repeat center center;
+    margin: 90px auto; 
+    text-align: center;
+}
+#section3 img{
+    padding-bottom: 90px;
+}
+#section3 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #58371D;
+    padding-bottom: 40px;
+}
+.fon_30{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+#contact-form{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: left;
+}
+#contact-form p{
+    font-size: 17px;
+}
+.inpu_round{
+    width: 950px;
+    height: 40px;
+    border-radius: 20px;
+}
+.inpu_ro{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+}
+#text{
+    border-radius: 10px;
+}
+.button{
+    width: 320px;
+    height: 45px;
+    background-color: #58371D;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10PX auto;
+    align-items: center;
+    display: inline-block;
+}
+.button a{
+    font: 20px;
+    margin: 10px auto;
+    display: block;
+}
+.button focus{
+    outline: 0;
+}
+.button:hover{
+    background-color: #333333;
+    color: #c4c4c4;
+    cursor: pointer;
+}
+/* footer */
+#footer{
+    height: 210px;
+    margin: 0 auto;
+    background-color: #242728;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0 15px;
+    font-size: 18px;
+}
+.footer_w{
+    display: flex;
+    justify-content: center;
+}
+.footer_w li{
+    padding: 0 30px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+.footer_t{
+    display: flex;
+    justify-content: center;
+}
+.footer_t li{
+    padding: 0 50px 20px;
+    margin-bottom: 10px;
+}
+.footer_o{
+    display: flex;
+    justify-content: center;
+}
+.footer_o li{
+    padding: 0 40px 20px;
+}
+#footer p{
+    text-align: center;
+    padding-bottom: 20px;
+}

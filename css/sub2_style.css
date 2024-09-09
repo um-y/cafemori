@@ -1,0 +1,206 @@
+/* webfont */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, small, strong, b, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tr, th, td, article, aside, footer, header, nav, section, summary, video{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    font-size: 16px;
+    /* rem의 기준크기!!! */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333333;
+}
+/* header */
+#wrap{
+    min-width: 1400px;
+}
+#mori_wrap{
+    width: 1320px;
+    height: 86px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+#wrap .logo{
+    margin: 10px 0;
+}
+.gnb{
+    display: flex;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.gnb> li{
+    position: relative;
+}
+.gnb> li> a{
+    display: block;
+    margin: 0 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.gnb> li> a:hover {
+    color: #58371D;
+}
+.submenu{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    background-color: rgb(255,255,255,0.8);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.submenu li a:hover{
+    color: #581d50;   
+}
+.gnb_img{
+    display: flex;
+    margin-top: 25px;
+}
+.gnb_img li a{
+    display: block;
+    margin-right: 50px;
+}
+/* banner */
+#banner{
+    background: url(../images/menu/banner-menu.png) no-repeat center center;
+    height: 475px;
+}
+/* section1 */
+#section1{
+    background: url(../images/menu/coffee_bg1.png) no-repeat center top;
+    height: 1300px;
+    margin: 210px auto 167px;
+    text-align: center;
+}
+.title_txt h2{
+    padding-top: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #58371D;
+}
+.title_txt h3{
+    padding-top: 26px;
+    font-size: 29px;
+    font-weight: bold;
+    color: #7F4612;
+}
+#section_img1{
+    background: url(../images/menu/coffee_bg2.png) no-repeat center bottom;
+    height: 1400px;
+}
+.card_in{
+    width: 1320px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    display: inline-grid; 
+    color: white;
+    transition: transform 0.3s;
+    transform: perspective(800px) rotateY(0deg);
+    transform-style: preserve-3d;
+}
+.card:hover{
+    transform: perspective(800px) rotateY(180deg);
+} 
+.card > * {
+    grid-area: 1 / 1 / 1 / 1;
+    width: 346px;
+    height: 509px;
+    padding: 30px;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+.back { 
+    transform: rotateY(180deg); 
+}
+/* section2 */
+#section2{
+    margin: 150px auto;
+    text-align: center;
+    background: url(../images/menu/drink_bg.png) no-repeat center center;
+    height: 1800px;
+}
+#section2 .title_img{
+    padding-top: 200px;
+}
+/* section3 */
+#section3{
+    background: url(../images/menu/Tea_bg_top.png) no-repeat center top;
+    height: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+#section_img3{
+    background: url(../images/menu/Tea_bg_bottom.png) no-repeat center bottom;
+    height: 800px;
+}
+/* section4 */
+#section4{
+    margin: 500px auto 0px;
+    text-align: center;
+    background: url(../images/menu/dessert_bg.png) no-repeat center center;
+    height: 1500px;
+}
+#section4 .title_img{
+    padding-top:  100px;
+}
+/* footer */
+#footer{
+    height: 210px;
+    margin: 0 auto;
+    background-color: #242728;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0 15px;
+    font-size: 18px;
+}
+.footer_w{
+    display: flex;
+    justify-content: center;
+}
+.footer_w li{
+    padding: 0 30px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+.footer_t{
+    display: flex;
+    justify-content: center;
+}
+.footer_t li{
+    padding: 0 50px 20px;
+    margin-bottom: 10px;
+}
+.footer_o{
+    display: flex;
+    justify-content: center;
+}
+.footer_o li{
+    padding: 0 40px 20px;
+}
+#footer p{
+    text-align: center;
+    padding-bottom: 20px;
+}

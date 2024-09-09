@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>cafe mori</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- webfont -->
+    <!-- swuoer -->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/sub4_style.css">
+</head>
+<body>
+    <div id="wrap">
+        <!-- header_S -->
+        <div id="header">
+            <div id="mori_wrap">
+                    <h1 class="logo">
+                        <a href="#"><img src="../images/all/logo.svg" alt="logo"></a>
+                    </h1>
+                <ul class="gnb">
+                    <li><a href="#">CAFE MORI</a>
+                        <div class="submenu">
+                            <div class="inner_submenu">
+                                <ul>
+                                    <li><a href="#">About Mori</a></li>
+                                    <li><a href="#">Brand Identity</a></li>
+                                    <li><a href="#">CAFE MORI INTERIOR</a></li>
+                                    <li><a href="#">Directions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">MENU</a>
+                        <div class="submenu">
+                            <div class="inner_submenu">
+                                <ul>
+                                    <li><a href="#">Coffee</a></li>
+                                    <li><a href="#">non-Coffee</a></li>
+                                    <li><a href="#">Tea</a></li>
+                                    <li><a href="#">Dessert</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">FRANCHISE</a>
+                        <div class="submenu">
+                            <div class="inner_submenu">
+                                <ul>
+                                    <li><a href="#">창업절차</a></li>
+                                    <li><a href="#">창업지원 및 경쟁력</a></li>
+                                    <li><a href="#">상담신청</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">COMMUNITY</a>
+                        <div class="submenu">
+                            <div class="inner_submenu">
+                                <ul>
+                                    <li><a href="#">community</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="gnb_img">
+                    <li><a href="#"><img src="../images/all/instagram.svg" alt=""></a></li>
+                    <li><a href="#"><img src="../images/all/facebook.svg" alt=""></a></li>
+                    <li><a href="#">가맹문의<br>1688-0000</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- bannerS -->
+        <div id="banner"></div>
+            <!-- banner_E -->
+            <!--section1_S -->
+        <div id="section1">
+            <div class="sec1_img">
+                <img src="../images/community/Event.png" alt="coffee">
+            </div>
+            <div class="sec1_text">
+                <div class="col_brown">
+                    <h1>Event</h1>
+                    <p class="col_gray">다양한 이벤트를 확인하세요!!!</p>
+                    <div class="sec1_event">
+                        <h2>진행중인 이벤트</h2>
+                        <div class=sec1_eve><a href="#"><img src="../images/community/dodbogi.png" alt="dodbogi"></a>
+                        <span>seatch</span>
+                        <input class="round" type="text" name="seatch">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <!--section1_E -->
+        <!--section2_S -->
+        <div id="section2">
+            <ul class="sec2_img">
+                <li><a href="#"><img src="../images/community/event-1.png" alt="event"></a></li>
+                <li><a href="#"><img src="../images/community/event-2.png" alt="event"></a></li>
+                <li><a href="#"><img src="../images/community/event-3.png" alt="event"></a></li>
+                <li><a href="#"><img src="../images/community/event-4.png" alt="event"></a></li>
+            </ul>
+            <div class="inner_sec2">
+                <h2>종료된 이벤트</h2>
+                <ul class="sec2_2img">
+                    <li><a href="#"><img src="../images/community/event-5.png" alt="event"></a></li>
+                    <li><a href="#"><img src="../images/community/event-6.png" alt="event"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            <ul class="footer_w">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./sub_about.html">CAFE MORI</a></li>
+                <li><a href="./sub_menu.html">MENU</a></li>
+                <li><a href="./sub_franchise.html">FRANCHISE</a></li>
+                <li><a href="./sub_community.html">COMMUNITY</a></li>
+            </ul>
+            <ul class="footer_t">
+                <li>대표이사 : 엄 정용</li>
+                <li>개인정보보호책임자 : 정병구</li>
+                <li> 사업자등록번호 : 404-86-01054</li>
+            </ul>
+            <ul class="footer_o">
+                <li>대표연락처: 010-9483-7641</li>
+                <li> 대표이메일 : dokin5te@naver.com</li>
+            </ul>
+            <p>통신판매업종신고증 : 제 2018-서울중구-0353호P</p>
+            <p>Copyright ⓒ 2021 A TWOSOME PLACE Co., LTD. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+        <script>
+            $(".submenu").hide();
+            $(".gnb li").mouseenter(function () {
+                $(this).children(".submenu").stop().slideDown()
+            });
+            $(".gnb li").mouseleave(function () {
+                $(this).children(".submenu").stop().slideUp()
+            });
+    </script>
+</body>
+</html>
