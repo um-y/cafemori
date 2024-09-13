@@ -18,59 +18,59 @@
         <!-- header_S -->
         <div id="header">
             <div id="mori_wrap">
-                    <h1 class="logo">
-                        <a href="#"><img src="../images/all/logo.svg" alt="logo"></a>
-                    </h1>
+                <h1 class="logo">
+                    <a href="../index.html"><img src="../images/all/logo.svg" alt="logo"></a>
+                </h1>
                 <ul class="gnb">
-                    <li><a href="#">CAFE MORI</a>
+                    <li><a href="sub_about.html">CAFE MORI</a>
                         <div class="submenu">
                             <div class="inner_submenu">
                                 <ul>
-                                    <li><a href="#">About Mori</a></li>
-                                    <li><a href="#">Brand Identity</a></li>
-                                    <li><a href="#">CAFE MORI INTERIOR</a></li>
-                                    <li><a href="#">Directions</a></li>
+                                    <li><a href="sub_about.html#section1">About Mori</a></li>
+                                    <li><a href="sub_about.html#section2">Brand Identity</a></li>
+                                    <li><a href="sub_about.html#section3">CAFE MORI INTERIOR</a></li>
+                                    <li><a href="sub_about.html#section4">Directions</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="#">MENU</a>
+                    <li><a href="sub_menu.html">MENU</a>
                         <div class="submenu">
                             <div class="inner_submenu">
                                 <ul>
-                                    <li><a href="#">Coffee</a></li>
-                                    <li><a href="#">non-Coffee</a></li>
-                                    <li><a href="#">Tea</a></li>
-                                    <li><a href="#">Dessert</a></li>
+                                    <li><a href="sub_menu.html#section1">Coffee</a></li>
+                                    <li><a href="sub_menu.html#section2">non-Coffee</a></li>
+                                    <li><a href="sub_menu.html#section3">Tea</a></li>
+                                    <li><a href="sub_menu.html#section4">Dessert</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="#">FRANCHISE</a>
+                    <li><a href="sub_franchise.html">FRANCHISE</a>
                         <div class="submenu">
                             <div class="inner_submenu">
                                 <ul>
-                                    <li><a href="#">창업절차</a></li>
-                                    <li><a href="#">창업지원 및 경쟁력</a></li>
-                                    <li><a href="#">상담신청</a></li>
+                                    <li><a href="sub_franchise.html#sec1_startup">창업절차</a></li>
+                                    <li><a href="sub_franchise.html#section2">창업지원 및 경쟁력</a></li>
+                                    <li><a href="sub_franchise.html#section4">상담신청</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="#">COMMUNITY</a>
+                    <li><a href="sub_community.html">COMMUNITY</a>
                         <div class="submenu">
                             <div class="inner_submenu">
                                 <ul>
-                                    <li><a href="#">community</a></li>
+                                    <li><a href="sub_community.html">community</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
                 </ul>
                 <ul class="gnb_img">
-                    <li><a href="#"><img src="../images/all/instagram.svg" alt=""></a></li>
-                    <li><a href="#"><img src="../images/all/facebook.svg" alt=""></a></li>
-                    <li><a href="#">가맹문의<br>1688-0000</a></li>
+                    <li><a href="javascript:return false;"><img src="../images/all/instagram.svg" alt=""></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/all/facebook.svg" alt=""></a></li>
+                    <li><a href="/sub/sub_franchise.html#section4">가맹문의<br>1688-0000</a></li>
                 </ul>
             </div>
         </div>
@@ -85,7 +85,7 @@
                 <p><strong>카페모리</strong>는 분위기와 기능성을 중요하게 생각하고
                     <br>고객 한사람 한사람을 중요하게 생각하는 카페를 만들기 위해 노력하겠습니다.</p>
             </div>
-            <div class="sec1_startup">
+            <div id="sec1_startup">
                 <h1 class="tit_img"><img src="../images/franchise/caffee Start-up.svg" alt="start"></h1>
                 <h2 class="sec_text">카페모리 창업절차</h2>
                 <p><strong>카페모리</strong>는 모든 점주님들의 힘이 되겠습니다.</p>
@@ -112,6 +112,8 @@
             <p class="fon_30">카페의 경쟁력을 높이고, 고객들에게 독특하고 매력적인 경험을 제공합니다.
             </p>
             <img src="../images/franchise/competitiveness.png" alt="competitiveness">
+        </div>   
+        <div id="section4">   
             <h1>카페 모리 가입문의 & 상담신청</h1>
             <p class="fon_30">inquiry about franchises & Request for consultation</p>
             <form id="contact-form">
@@ -124,18 +126,20 @@
                     <span>*문의사항</span><br><br>
                     <input class="inpu_round" type="text" name="seatch"><br><br>
                     <span>*통화가능시간</span><br><br>
-                    <input class="inpu_ro" type="text" name="seatch"><br><br>
+                    <input class="inpu_ro" type="datetime-local" name="starttime">><br><br>
                     <span>*창업희망지역</span><br><br>
                     <input class="inpu_round" type="text" name="seatch"><br><br>
                     <input class="inpu_round" type="text" name="seatch"><br><br>
                     <span>*점포유무</span><br><br>
                     <input type="radio" name="containerType" value="Yes">
-                    <label for="weekly"></label>점포있음</label><br><br>
-                    <input type="radio" name="containerType" value="no"><label for="weekly"></label>점포없음</label><br><br>
+                    <label for="weekly">점포있음</label><br><br>
+                    <input type="radio" name="containerType" value="no">
+                    <label for="weekly">점포없음</label><br><br>
                     <span>*문의내용</span><br><br>
-                    <textarea name="textcon" id="text" cols="135" rows="20"></textarea>
+                    <textarea cols="70" rows="10" placeholder='내용을 입력하세요.' 
+                    style="overflow-y:scroll; overflow-x:hidden; resize: none;" required></textarea><br>
             </form>
-            <div class="button"><a href="">문의하기</a></div>
+            <div class="button"><a href="#">문의하기</a></div>
         </div> 
         <!-- section3_E -->
         <!-- footer_S -->
@@ -169,6 +173,6 @@
             $(".gnb li").mouseleave(function () {
                 $(this).children(".submenu").stop().slideUp()
             });
-    </script>
+        </script>
 </body>
 </html>
