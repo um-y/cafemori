@@ -98,7 +98,6 @@ body{
     font-weight: bold;
     color: #58371D;
     padding: 30px;
-    
 }
 #section1 p{
     font-size: 24px;
@@ -110,7 +109,7 @@ body{
     height: 1520px;
     margin: 0 auto;
     text-align: center;
-    background: url(../images/) no-repeat center top;
+    background: url(../images/franchise/startup1.png) no-repeat center top;
 }   
 .sec2_startup{
     padding-top: 100px;
@@ -126,7 +125,7 @@ body{
 }
 /* section3 */
 #section3{
-    height: 2000px;
+    height: 380px;
     background: url(../images/franchise/bg_startup.png) no-repeat center center;
     margin: 90px auto; 
     text-align: center;
@@ -140,53 +139,68 @@ body{
     color: #58371D;
     padding-bottom: 40px;
 }
+/* section 4 */
+#section4{
+    height: 1500px;
+    margin: 90px auto 30px;
+    text-align: center;
+}
+#section4 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #58371D;
+    padding: 90px 0 40px;
+}
 .fon_30{
     font-size: 30px;
     padding-bottom: 50px;
 }
 #contact-form{
-    width: 1000px;
+    width: 600px;
     margin: 50px auto;
     text-align: left;
+    
 }
-#contact-form p{
-    font-size: 17px;
+#contact-form span{
+    font-size: 20px;
+    text-align: left;
 }
 .inpu_round{
-    width: 950px;
+    width: 500px;
     height: 40px;
-    border-radius: 20px;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: left;
 }
 .inpu_ro{
-    width: 160px;
+    width: 300px;
     height: 40px;
-    border-radius: 20px;
-}
-#text{
-    border-radius: 10px;
+    font-size: 20px;
+    font-weight:bold;
 }
 .button{
-    width: 320px;
-    height: 45px;
-    background-color: #58371D;
+    width: 200px;
+    height: 40px;
+    background-color: #333333;
     color: #ffffff;
     font-size: 20px;
     text-align: center;
     margin: 10PX auto;
     align-items: center;
-    display: inline-block;
 }
 .button a{
     font: 20px;
     margin: 10px auto;
-    display: block;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
 }
 .button focus{
     outline: 0;
 }
 .button:hover{
-    background-color: #333333;
-    color: #c4c4c4;
+    background-color: #58371D;
+    color: #4d4d4d;
     cursor: pointer;
 }
 /* footer */
