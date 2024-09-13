@@ -121,8 +121,7 @@ body{
 .round{
     width: 270px;
     height: 45px;
-    border-radius: 27.5px;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
 }
 .sec1_eve{
