@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../css/swiper-bundle.min.css">
     <!-- css -->
     <link rel="stylesheet" href="../css/sub2_style.css">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
 </head>
 <body>
     <!-- wrap_S -->
@@ -81,12 +83,12 @@
         <!-- banner_E -->
         <!-- section1_S -->
         <div id="section1">
-            <div class="title_img">
+            <div class="title_img" data-aos="fade-down">
                 <a href="javascript:return false;"><img src="../images/menu/coffeecup.svg" alt="coffeecup"></a>
             </div>
             <div class="title_txt">
-                <h2>Coffee</h2>
-                <h3>전문가의 섬세함으로 완성된 최상의 커피</h3>
+                <h2 data-aos="fade-right">Coffee</h2>
+                <h3 data-aos="fade-left">전문가의 섬세함으로 완성된 최상의 커피</h3>
             </div>         
             <div id="section_img1">
                 <div class="img_coffee">
@@ -122,12 +124,12 @@
         <!-- section1_E -->
         <!-- section2_S -->
         <div id="section2">
-            <div class="title_img">
+            <div class="title_img" data-aos="fade-up">
                 <a href="javascript:return false;"><img src="../images/menu/drink.svg" alt="drink"></a>
             </div>
             <div class="title_txt">
-                <h2>non-Coffee</h2>
-                <h3>최적의 밸런스를 가진 음료</h3>
+                <h2 data-aos="fade-left">non-Coffee</h2>
+                <h3 data-aos="fade-right">최적의 밸런스를 가진 음료</h3>
             </div>         
             <div id="section_img">
                 <div class="img_coffee">
@@ -163,12 +165,12 @@
         <!-- section2_E -->
         <!-- section3_S -->
         <div id="section3">
-            <div class="title_img">
+            <div class="title_img" data-aos="fade-down-right">
                 <a href="javascript:return false;"><img src="../images/menu/Tea.svg" alt="tea"></a>
             </div>
             <div class="title_txt">
-                <h2>Tae</h2>
-                <h3>건강을 지키며 맛도 좋은 차</h3>
+                <h2 data-aos="fade-down-right">Tae</h2>
+                <h3 data-aos="fade-down-left">건강을 지키며 맛도 좋은 차</h3>
             </div>         
             <div id="section_img3">
                 <div class="img_coffee">
@@ -204,12 +206,12 @@
         <!-- section3_E -->
         <!-- section4_S -->
         <div id="section4">
-            <div class="title_img">
+            <div class="title_img" data-aos="fade-down-right">
                 <a href="javascript:return false;"><img src="../images/menu/Dessert.svg" alt="dessert"></a>
             </div>
             <div class="title_txt">
-                <h2>Dessert</h2>
-                <h3>다양한 프리미엄 디저트</h3>
+                <h2 data-aos="fade-up-right">Dessert</h2>
+                <h3 data-aos="fade-down-left">다양한 프리미엄 디저트</h3>
             </div>         
             <div id="section_img4">
                 <div class="img_coffee">
@@ -275,6 +277,14 @@
             $(".gnb li").mouseleave(function () {
                 $(this).children(".submenu").stop().slideUp()
             });
+    </script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out-back'
+        });
     </script>
 </body>
 </html>

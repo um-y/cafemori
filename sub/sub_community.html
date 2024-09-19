@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../css/swiper-bundle.min.css">
     <!-- css -->
     <link rel="stylesheet" href="../css/sub4_style.css">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="wrap">
@@ -79,15 +81,15 @@
             <!-- banner_E -->
             <!--section1_S -->
         <div id="section1">
-            <div class="sec1_img">
+            <div class="sec1_img" data-aos="fade-down">
                 <img src="../images/community/Event.png" alt="coffee">
             </div>
             <div class="sec1_text">
                 <div class="col_brown">
-                    <h1>Event</h1>
-                    <p class="col_gray">다양한 이벤트를 확인하세요!!!</p>
+                    <h1 data-aos="fade-down-right">Event</h1>
+                    <p class="col_gray" data-aos="fade-down-left">다양한 이벤트를 확인하세요!!!</p>
                     <div class="sec1_event">
-                        <h2>진행중인 이벤트</h2>
+                        <h2 data-aos="fade-up">진행중인 이벤트</h2>
                         <div class=sec1_eve><a href="javascript:return false;"><img src="../images/community/dodbogi.png" alt="dodbogi"></a>
                         <span>seatch</span>
                         <input class="round" type="text" name="seatch">
@@ -100,16 +102,16 @@
         <!--section2_S -->
         <div id="section2">
             <ul class="sec2_img">
-                <li><a href="javascript:return false;"><img src="../images/community/event-1.png" alt="event"></a></li>
-                <li><a href="javascript:return false;"><img src="../images/community/event-2.png" alt="event"></a></li>
-                <li><a href="javascript:return false;"><img src="../images/community/event-3.png" alt="event"></a></li>
-                <li><a href="javascript:return false;"><img src="../images/community/event-4.png" alt="event"></a></li>
+                <li data-aos="fade-right"><a href="javascript:return false;"><img src="../images/community/event-1.png" alt="event"></a></li>
+                <li data-aos="fade-left"><a href="javascript:return false;"><img src="../images/community/event-2.png" alt="event"></a></li>
+                <li data-aos="fade-right"><a href="javascript:return false;"><img src="../images/community/event-3.png" alt="event"></a></li>
+                <li data-aos="fade-left"><a href="javascript:return false;"><img src="../images/community/event-4.png" alt="event"></a></li>
             </ul>
             <div class="inner_sec2">
-                <h2>종료된 이벤트</h2>
+                <h2 data-aos="fade-up">종료된 이벤트</h2>
                 <ul class="sec2_2img">
-                    <li><a href="javascript:return false;"><img src="../images/community/event-5.png" alt="event"></a></li>
-                    <li><a href="javascript:return false;"><img src="../images/community/event-6.png" alt="event"></a></li>
+                    <li data-aos="fade-right"><a href="javascript:return false;"><img src="../images/community/event-5.png" alt="event"></a></li>
+                    <li data-aos="fade-left"><a href="javascript:return false;"><img src="../images/community/event-6.png" alt="event"></a></li>
                 </ul>
             </div>
         </div>
@@ -144,6 +146,14 @@
             $(".gnb li").mouseleave(function () {
                 $(this).children(".submenu").stop().slideUp()
             });
+    </script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out-back'
+        });
     </script>
 </body>
 </html>
