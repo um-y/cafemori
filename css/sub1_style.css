@@ -330,8 +330,14 @@ h3{
     line-height: 40px;
 }
 #map{
+    width: 1320px;
     height: 605px;
-    background :url(../images/landingPage/map.png) no-repeat center top;
+    margin: 0 auto;
+    text-align: center;
+}
+#map iframe{
+    width: 1320px;
+    height: 605px;
 }
 /* footer */
 #footer{

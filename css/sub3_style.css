@@ -166,7 +166,7 @@ body{
     text-align: left;
 }
 .inpu_round{
-    width: 500px;
+    width: 600px;
     height: 40px;
     font-size: 20px;
     font-weight:bold;
@@ -186,22 +186,24 @@ body{
     font-size: 20px;
     text-align: center;
     margin: 10PX auto;
+    cursor: pointer;/*추가*/
     align-items: center;
+    padding-top: 20px;
 }
-.button a{
-    font: 20px;
-    margin: 10px auto;
-    display: inline-block;
+.button p{
     text-align: center;
-    vertical-align: center;
+    align-items: center;
 }
 .button focus{
     outline: 0;
 }
 .button:hover{
     background-color: #58371D;
-    color: #4d4d4d;
     cursor: pointer;
+}
+#contact-form textarea{
+    width: 600px;
+    font-size: 15px;
 }
 /* footer */
 #footer{
