@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <!-- css -->
     <link rel="stylesheet" href="css/main_style.css">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
 </head>
 <body>
     <div id="wrap">
@@ -97,15 +99,15 @@
         <!-- banner_E -->
         <!-- section1_S -->
         <div id="section1">
-            <h1>About Mori</h1>
+            <h1 data-aos="flip-left">About Mori</h1>
             <div class="recipe">
                 <div class="about_T">
-                    <h2>배려와 진정성으로 소중한<br>
+                    <h2 data-aos="fade-up-left">배려와 진정성으로 소중한<br>
                         오늘의 이야기를 만들어가는 곳</h2>
-                    <p>가장 나다운 시간을 보낼 수 있는 곳<br>
+                    <p data-aos="fade-up-right">가장 나다운 시간을 보낼 수 있는 곳<br>
                         누구에게나 소중한 진심을 다하는 곳이 되겠습니다</p>
                 </div>
-                <div class="back_img">
+                <div class="back_img"  data-aos="zoom-in">
                     <img src="images/all/coffee beans.svg" alt="brsns">
                 </div>
                 <div class="about_img">
@@ -116,7 +118,7 @@
         <!-- section1_E -->
         <!-- section2_S -->
         <div id="section2">
-            <h1>Best Menu</h1>
+            <h1 data-aos="flip-left">Best Menu</h1>
             <div class="swiper mySwiper2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="images/main/swier_1.jpg" alt=""></div>
@@ -137,14 +139,16 @@
         <!-- section2_E -->
         <!-- section3_S -->
         <div id="section3">
-            <h1>Specialty coffee</h1>
+            <h1 data-aos="zoom-in">Specialty coffee</h1>
             <ul class="sp_coffee">
                 <li>
-                    <a href="javascript:return false;">
-                        <img src="images/main/COOPERATION.svg" alt="COOPERATION">
-                    </a>
+                    <div class="sp_img">
+                        <a href="javascript:return false;">
+                            <img src="images/main/COOPERATION.svg" alt="COOPERATION">
+                        </a>
+                    </div>
                     <div class="sp_txt">
-                        <strong>COOPERATION</strong>
+                        <strong data-aos="fade-up-right">COOPERATION</strong>
                         <p>합리적인 창업 비용과 물류 원가 절감으로
                             <br>월 유지비를 낮추었습니다.
                             <br>점주님의 순 수익률을 높여
@@ -153,11 +157,13 @@
                     </div>
                 </li>
                 <li>
-                    <a href="javascript:return false;">
-                        <img src="images/main/ROASTING.svg" alt="SPECIALTY COFFEE">
-                    </a>
+                    <div class="sp_img">
+                        <a href="javascript:return false;">
+                            <img src="images/main/ROASTING.svg" alt="SPECIALTY COFFEE">
+                        </a>
+                    </div>
                     <div class="sp_txt">
-                        <strong>ROASTING</strong>
+                        <strong data-aos="fade-up-left">ROASTING</strong>
                         <p>최상급 원드를 현지의 좋은 농장에서 구매하여
                             <br>완벽한 밸련스, 부드러운 마우스필을 중심으로
                             <br>고소하고 풍부한 커피향에 포커스를 맞추어
@@ -166,11 +172,13 @@
                     </div>
                 </li>
                 <li>
-                    <a href="javascript:return false;">
-                        <img src="images/main/SPECIALTY COFFEE.svg" alt="SPECIALTY COFFEE">
-                    </a>
+                    <div class="sp_img">
+                        <a href="javascript:return false;">
+                            <img src="images/main/SPECIALTY COFFEE.svg" alt="SPECIALTY COFFEE">
+                        </a>
+                    </div>
                     <div class="sp_txt">
-                        <strong>SPECIALTY COFFEE</strong>
+                        <strong data-aos="fade-up-right">SPECIALTY COFFEE</strong>
                         <p>스폐셜티 커피의 본질 '온전히 자연을 담다'
                             <br>커피의 패러다임, 음료에서 문화로 나아갑니다.
                             <br>오직 카페모리에서 경험할 수 있는 <br>특별한 커피의 자부심을 느껴보세요.
@@ -181,26 +189,25 @@
         </div>
         <div id="section4">
             <div class="sec_event">
-                <h1>Event</h1>
+                <h1 data-aos="fade-up-right">Event</h1>
                 <ul class="evnet_img">
-                    <li><a href="sub/sub_community.html#section1"><img src="images/main/event-1.png" alt="이벤트"></a></li>
-                    <li><a href="sub/sub_community.html#section2"><img src="images/main/event-2.png" alt="이벤트"></a></li>
+                    <li data-aos="flip-up"><a href="sub/sub_community.html#section1"><img src="images/main/event-1.png" alt="이벤트"></a></li>
+                    <li data-aos="flip-down"><a href="sub/sub_community.html#section2"><img src="images/main/event-2.png" alt="이벤트"></a></li>
                 </ul>
-
             </div>
         </div>    
-        <div id="coffee_banner">
+        <div id="coffee_banner" data-aos="zoom-in-up">
             <img src="images/main/banner1.jpg" alt="banner">
         </div>
         <div id="section5">
-            <h1>FRANCHISE</h1>
+            <h1 data-aos="fade-up-right">FRANCHISE</h1>
             <ul class="franchise">
                 <li><a href="sub/sub_franchise.html"><img src="images/main/Franchise.jpg" alt="Franchise"></a></li>
                 <li class="franchise_t">
-                    <h2>당신의 꿈은 당신이 마음속 깊이
+                    <h2 data-aos="fade-down">당신의 꿈은 당신이 마음속 깊이
                         <br>간직한 소중한 희망입니다.
                     </h2>
-                    <p>
+                    <p data-aos="fade-up">
                         그 꿈이 아무리 커 보이거나 멀게 느껴질지라도,
                         <br>그것이 당신의 가슴을 뛰게 하고,
                         <br>열정을 불러일으킨다면, 모리와 함께 하세요!!
@@ -288,6 +295,14 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+    </script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out-back'
         });
     </script>
 </body>
