@@ -24,6 +24,7 @@ body{
 /* header */
 #wrap{
     min-width: 1400px;
+    overflow: hidden;	
 }
 #mori_wrap{
     width: 1320px;
